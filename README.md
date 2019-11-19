@@ -27,20 +27,24 @@ Simple by doing this will open and ready to serve in port 7777
 - Copy the content of exported KML file
 - Paste it into the request body like below:
 
-* curl -X POST \
+```
+curl -X POST \
   http://localhost:7777/kml/convert \
   -H 'Content-Type: application/xml' \
   -d 'content_here'
+```
 
 ## How to convert the GeoJson format
 - Copy the content of exported KML file
 - Convert it to GeoJson format first in this website (https://mapbox.github.io/togeojson/)
 - Copy the result, and paste it into the request body like below:
 
-* curl -X POST \
+```
+curl -X POST \
   http://localhost:7777/geojson/convert \
   -H 'Content-Type: application/json' \
   -d '{content here}'
+```
 
 ## API Postman Collections
 
