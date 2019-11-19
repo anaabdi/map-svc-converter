@@ -48,6 +48,7 @@ curl -X POST \
 
 ## API Postman Collections
 
+- import this link in your postman application:
 https://www.getpostman.com/collections/1a90bd8598cf9133af9a
 
 ## Authors
